@@ -127,19 +127,21 @@ Following the previous steps, you are currently in the **immersive** agent exper
 
     :::image type="content" source="../media/test-in-context-agent-flyout.png" alt-text="Screenshot of Microsoft Edge showing the agent flyout in Microsoft 365 Copilot. The Product support agent is highlighted." lightbox="../media/test-in-context-agent-flyout.png":::
 
-4. In the flyout, select **Product support**. Notice the status message above the message box. It displays **Chatting with Product support**, which signifies that you're using the in-context experience of the agent.
+   :::image type="content" source="../media/launch-exercise.png" alt-text="test" lightbox="../media/launch-exercise.png":::
+
+5. In the flyout, select **Product support**. Notice the status message above the message box. It displays **Chatting with Product support**, which signifies that you're using the in-context experience of the agent.
 
     :::image type="content" source="../media/test-in-context-agent.png" alt-text="Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The status message 'Chatting with Product support' is highlighted." lightbox="../media/test-in-context-agent.png":::
 
-5. In the text box, enter `What can you do?` and submit your message.
+6. In the text box, enter `What can you do?` and submit your message.
 
     :::image type="content" source="../media/test-in-context-message.png" alt-text="Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The text 'What can you do?' is highlighted in the message box." lightbox="../media/test-in-context-message.png":::
 
-6. Wait for the response. Notice how the response starts with the text "You created a declarative agent!" as defined in the instructions.
+7. Wait for the response. Notice how the response starts with the text "You created a declarative agent!" as defined in the instructions.
 
     :::image type="content" source="../media/test-in-context-response.png" alt-text="Screenshot of Microsoft Edge showing Microsoft 365 Copilot. A response from the Product support agent is displayed. " lightbox="../media/test-in-context-response.png":::
 
-7. To exit the in-context experience, select the (X) in the status message. Notice the status message is removed and a message is displayed in the chat window that indicates that you're no longer chatting with the agent.
+8. To exit the in-context experience, select the (X) in the status message. Notice the status message is removed and a message is displayed in the chat window that indicates that you're no longer chatting with the agent.
 
     :::image type="content" source="../media/test-in-context-exit.png" alt-text="Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The cross icon in the agent status message is highlighted." lightbox="../media/test-in-context-exit.png":::
 
