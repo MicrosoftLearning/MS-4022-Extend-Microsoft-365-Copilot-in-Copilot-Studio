@@ -127,8 +127,7 @@ Following the previous steps, you are currently in the **immersive** agent exper
 
     :::image type="content" source="../Media/test-in-context-agent-flyout.png" alt-text="Screenshot of Microsoft Edge showing the agent flyout in Microsoft 365 Copilot. The Product support agent is highlighted." lightbox="../Media/test-in-context-agent-flyout.png":::
 
-   :::image type="content" source="../Media/launch-exercise.png" alt-text="test" lightbox="../Media/launch-exercise.png":::
-
+   ![Test](../Media/launch-exercise.png)
 5. In the flyout, select **Product support**. Notice the status message above the message box. It displays **Chatting with Product support**, which signifies that you're using the in-context experience of the agent.
 
     :::image type="content" source="../Media/test-in-context-agent.png" alt-text="Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The status message 'Chatting with Product support' is highlighted." lightbox="../Media/test-in-context-agent.png":::
