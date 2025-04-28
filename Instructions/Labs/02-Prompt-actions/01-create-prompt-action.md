@@ -7,15 +7,11 @@ lab:
 
 In this exercise you will create a prompt action, test the prompt in Copilot Studio, and test the prompt within a Copilot agent.
 
-This exercise should take approximately **20** minutes to complete.
+This exercise should take approximately **15** minutes to complete.
 
-## Before you start
+## Objective
 
-Before you can start this exercise, you will need to...
-
-1. Step 1
-2. Step 2
-3. etc.
+You'll create a prompt action that helps users turn their raw ideas into organized marketing pitches that follow a specific format and guidelines.
 
 ## Create a prompt action in Copilot Studio
 
@@ -28,7 +24,7 @@ Before you can start this exercise, you will need to...
 1. Place your cursor at the end of the sentence you entered then select **Add content**
 1. Select **Text**.
 1. In the **Name** field, enter `draft`.
-1. In the **Sample data** field, enter `The mighty mechanical pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use` then select **Close**.
+1. In the **Sample data** field, enter `The Mighty Mechanical Pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use.` then select **Close**.
 
 ## Test and refine your prompt
 
@@ -85,5 +81,7 @@ If you've completed the previous lab and created a declarative agent, you may ad
 Next, test the agent with the action in Copilot Studio.
 
 1. From the **Test your agent** pane in your agent's overview page in Copilot Studio, select the **refresh** button to refresh the test pane and load your agent's latest changes.
-1. In the text box for the test conversation, enter `Create a Contoso marketing pitch based on the following draft: "Bouncy ball is the hottest product on the market for both youth and adults. It's durable and the largets of its kind."` then send the message.
+1. In the text box for the test conversation, enter `Create a Contoso marketing pitch based on the following draft: "Bouncy ball is the hottest product on the market for both youth and adults. It's durable and the largest of its kind."` then send the message.
 1. Review the response and note that the agent is following the guidance you provided in the custom prompt action's instructions.
+
+You've completed the exercise and validated the functionality of your prompt action.

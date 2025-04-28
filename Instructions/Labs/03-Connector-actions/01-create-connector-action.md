@@ -11,7 +11,7 @@ This exercise should take approximately **10** minutes to complete.
 
 ## Objective
 
-You'll use the SharePoint - list folder connector to retrieve a list of files from a Products folder that contains product support files.
+You'll use the SharePoint - List folder connector to retrieve a list of files from a Products folder that contains product support files.
 
 ## Before you start
 
@@ -57,3 +57,7 @@ This exercise assumes the following:
 4. Notice that your agent responds with the message "You used the SharePoint connector" and then lists the files available in the Products folder.
 
 You've validated that your connector action works as expected within your agent.
+
+## (Optional) Test your agent in Microsoft 365 Copilot
+
+You may also choose to publish your Product Support agent to Microsoft 365 Copilot and enter the same prompt to test your agent and action in Copilot. The steps are beyond the focus of this exercise. Review the module **Build your first declarative agent for Microsoft 365 Copilot by using Copilot Studio** to learn more about publishing your agent to Microsoft 365 Copilot.
