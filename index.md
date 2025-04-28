@@ -6,16 +6,13 @@ layout: home
 
 # Exercises
 
-This page lists exercises associated with Microsoft skilling content on [Microsoft Learn](https://learn.microsoft.com)
+This page lists exercises associated with Microsoft skilling course **MS-4022: Extend Microsoft 365 Copilot in Copilot Studio**.
 
-<!-- You can edit the paragraph above to provide a more specific description and links to content on Learn.
+**Note**: To complete these exercises, you will need:
 
-Include the following note if an Azure subscription is required (or add something similar for any other requirements, such as a Microsoft 365 account).
-
-> **Note**: To complete these exercises, you will need a [Microsoft Azure subscription](https://azure.microsoft.com/free) in which you have sufficient permissions to create and configure the required resources.
-
-If a more complex setup is required, create a separate markdown file with setup instructions at \Instructions\Labs\00-setup.md - being sure to include "lab.title"" metadata at the top so it shows up the list below
--->
+- A work or school account with [access to Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions). If you don't already have access to Copilot Studio, depending on the configuration of your Microsoft 365 organization, you may be able to [create a trial account](https://learn.microsoft.com/microsoft-copilot-studio/sign-up-individual).
+- A Microsoft 365 Copilot license
+- Credentials needed to connect to desired content sources (connectors, APIs, etc.)
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 {% for activity in labs  %}

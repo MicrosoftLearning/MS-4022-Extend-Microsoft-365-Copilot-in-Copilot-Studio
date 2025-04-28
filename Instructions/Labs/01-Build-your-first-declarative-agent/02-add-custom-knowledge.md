@@ -29,6 +29,8 @@ First, configure your agent to use the SharePoint site data.
 
 ### Add SharePoint URL
 
+> **Note**: Copilot Studio agents access documents on behalf of the user. Your agent will only be able to get answers and content from documents your end users have access to.
+
 ### Update custom instructions
 
 **TODO: Insert steps**
