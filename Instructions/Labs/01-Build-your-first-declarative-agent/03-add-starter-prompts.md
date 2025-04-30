@@ -3,20 +3,11 @@ lab:
     title: 'Add starter prompts'
 ---
 
-# Add starter prompts <!-- match title in metadata above (and Learn Exercise unit and ILT slide)-->
+# Add starter prompts
 
 In this exercise you will update the declarative agent you created in the previous exercise with six starter prompts.
 
 This exercise should take approximately **10** minutes to complete.
-
-## Before you start
-
-<!--
-Add steps to get the learner to the starting point" for the exercise.
-This might be cloning the repo and running a script or performing some manual steps.
-Only include this section if its necessary to do some pre-exercise setup AND the same setup steps are required for self-paced (on Learn) and managed (in hosted ILT lab profiles) scenarios. Otherwise delete this section.
-If self-paced /ILT-specific setup steps are required, include them in the Learn "Exercise" unit from where they open this exercise and in the Skillable lab profile instructions before this markdown file is imported.
- -->
 
 ## Define starter prompts
 
@@ -37,14 +28,21 @@ In Copilot Studio:
 
 1. **Save** your changes.
 
-## Task 2: Publish and test your agent
+## Republish your agent
 
-Next, test your declarative agent in Microsoft 365 Copilot and validate the results.
+Let's publish the updated agent to Microsoft 365 Copilot.
 
-**<ADD steps to republish to M365 Copilot**
+1. Select **Publish** at the top-right of your agent's overview page in Copilot Studio.
+2. On the modal window that opens, select **Publish**.
+3. On the **Availability options** window that opens, select **Copy** under the **Share link** heading.
+4. In a different tab of your web browser, **paste** your agent's share link and select **enter**. A window appears describing the **Product Support** agent.
+5. Select **Update now** under the agent's name to publish the changes to the Product Support agent. Wait a few moments while the agent is updated.
+6. When the update is complete, close the modal window. If you're not taken to Microsoft 365 Copilot in your browser, select **Copilot** from the left-hand menu or the **Apps** menu in the Microsoft 365 portal.
 
-Continuing in the web browser:
+## Test your agent in Microsoft 365 Copilot
 
 1. In **Microsoft 365 Copilot**, select the icon in the top right to expand the **Copilot side panel**.
 2. Find **Product support** in the list of agents and select it to enter the immersive experience to chat directly with the agent. Notice that the starter prompts you defined in Copilot Studio display in the user interface.
-3. Select a starter prompt and review the response.
+
+    ![Screenshot of Microsoft 365 Copilot in Microsoft Edge showing the Product Support agent's starter prompts.](../Media/product-support-starter-prompts.png)
+3. **Select** a starter prompt and review the response.

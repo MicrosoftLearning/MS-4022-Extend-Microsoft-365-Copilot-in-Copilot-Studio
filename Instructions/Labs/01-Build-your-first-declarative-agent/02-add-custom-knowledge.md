@@ -35,33 +35,22 @@ Next, update the agent's instructions to describe how the agent should use the k
 1. Update the contents of the **Instructions** text box to the following: `You are an agent tasked with answering questions about Contoso Electronics products. Start every response by enthusiastically thanking the user for their question or comment, then respond to their question or comment. You will use documents from the Products folder in SharePoint as your source of information. If you can't find the necessary information, you should suggest that the agent should reach out to the team responsible for further assistance. Your responses should be concise and always include a cited source.`
 1. Select **Save** in the **Details** section.
 
-## Republish your agent
+## Test your agent in Copilot Studio
 
-Let's publish the updated agent to Microsoft 365 Copilot.
+Let's test your agent's ability to use the custom knowledge source.
 
-1. Select **Publish** at the top-right of your agent's overview page in Copilot Studio.
-1. On the modal window that opens, select **Publish**.
-1. On the **Availability options** window that opens, select **Copy** under the **Share link** heading.
-1. In a different tab of your web browser, **paste** your agent's share link and select **enter**. A window appears describing the **Product Support** agent.
-1. Select **Update now** under the agent's name to publish the changes to the Product Support agent. Wait a few moments while the agent is updated.
-1. When the update is complete, close the modal window. If you're not taken to Microsoft 365 Copilot in your browser, select **Copilot** from the left-hand menu or the **Apps** menu in the Microsoft 365 portal.
-
-### Test your agent in Microsoft 365 Copilot
-
-Let's test the grounding data in the immersive experience.
-
-1. From **Microsoft 365 Copilot** in your web browser, select **Product support** in the right-hand menu to open the Product Support agent in the immersive experience.
-1. In the message box, enter **Tell me about Eagle Air** and send the message.
+1. From the **Test your agent** pane in your agent's overview page in Copilot Studio, select the **refresh** button to refresh the test pane and load your agent's latest changes.
+1. In the text box for the test conversation, enter `Tell me about Eagle Air` and send the message.
 1. Wait for the response. Notice that the response contains information about the Eagle Air drone. The response contains citations and references to the Eagle Air document stored in SharePoint.
 
 Let's try a few more prompts:
 
-1. In the message box, enter **Recommend a product suitable for a farmer** and send the message.
+1. In the message box, enter `Recommend a product suitable for a farmer` and send the message.
 1. Wait for the response. Notice that the response contains information about the Eagle Air and some extra context as to why the Eagle Air is recommended. The response contains citations and references to the Eagle Air document stored in OneDrive.
-1. In the message box, enter **Explain why the Eagle Air is more suitable than Contoso Quad** and send the message.
+1. In the message box, enter `Explain why the Eagle Air is more suitable than Contoso Quad` and send the message.
 1. Wait for the response. Notice that the response explains in more detail why the Eagle Air is more suitable than the Contoso Quad for use by farmers.
 
 Finally, let's test the fallback response by asking a question that the agent can't answer:
 
-1. In the message box, enter **When was Mark8 released?** and send the message.
+1. In the message box, enter `When was Mark8 released?` and send the message.
 1. Wait for the response. Notice that the response suggests that the agent should reach out to the team responsible for further assistance as defined in the instructions.
