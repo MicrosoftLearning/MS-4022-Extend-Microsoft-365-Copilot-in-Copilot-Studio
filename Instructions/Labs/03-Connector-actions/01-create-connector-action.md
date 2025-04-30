@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Create a connector action'
+    title: '3.1 Create a connector action'
 ---
 
 # Create a connector action

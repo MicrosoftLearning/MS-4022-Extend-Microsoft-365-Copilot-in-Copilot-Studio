@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Add starter prompts'
+    title: '1.3: Add starter prompts'
 ---
 
 # Add starter prompts

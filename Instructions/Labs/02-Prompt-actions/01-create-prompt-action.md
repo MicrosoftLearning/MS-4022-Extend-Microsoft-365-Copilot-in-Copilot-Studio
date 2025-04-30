@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Create a prompt action'
+    title: '2.1: Create a prompt action'
 ---
 
 # Create a prompt action

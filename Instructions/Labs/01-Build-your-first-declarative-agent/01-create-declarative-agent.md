@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Create a declarative agent'
+    title: '1.1: Create a declarative agent'
 ---
 
 # Create a declarative agent

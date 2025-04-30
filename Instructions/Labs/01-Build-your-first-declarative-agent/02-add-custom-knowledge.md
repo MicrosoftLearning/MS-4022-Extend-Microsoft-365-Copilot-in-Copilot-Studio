@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Add custom knowledge'
+    title: '1.2: Add custom knowledge'
 ---
 
 # Add custom knowledge
