@@ -2,7 +2,7 @@
 
 This repo contains exercises and supporting files for Microsoft skilling course **MS-4022: Extend Microsoft 365 Copilot in Copilot Studio**.
 
-The exercises may be used in both self-paced skilling experiences on [Microsoft Learn](https://learn.microsoft.com) and in Microsoft authorized instructor-led training.
+The exercises may be used in both self-paced skilling experiences with the Microsoft Learn [learning path](https://learn.microsoft.com/training/paths/extend-microsoft-365-copilot-studio/) and in Microsoft-authorized instructor-led training.
 
 ## Information for MCTs
 
