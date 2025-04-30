@@ -45,9 +45,15 @@ This exercise assumes the following:
 20. Select the **Add action** button and wait for the SharePoint action to be added to your agent. The action should now be listed in the **Actions** section of your agent's detail page.
 21. From the **Actions** section, select the **List product support files** action to open its details page.
 22. Navigate to the **Outputs** tab.
-23. Under **Choose how this action's result will be displayed** check the box labelled **Send a message immediately after running the action**. An additional configuration option will be displayed.
+23. For testing purposes, under **Choose how this action's result will be displayed** check the box labelled **Send a message immediately after running the action**. An additional configuration option will be displayed.
 24. Select the dropdown under **How do you want to display information to the user?** then select **You create a message**. A text box will be displayed.
 25. In the **Message to display** text box, enter `You used the SharePoint connector` then select **Save** at the top of the page.
+
+Let's also update your agent's instructions providing guidance to use the connector action.
+
+1. From the **Details** section of your **Product Support** agent, select **Edit**.
+1. In the **Instructions** text box, add the following to the existing instructions text: `When asked about available support resources, use the SharePoint connector to list the files in the Products folder.`
+1. Select **Save**.
 
 ## Test your agent with the action
 
