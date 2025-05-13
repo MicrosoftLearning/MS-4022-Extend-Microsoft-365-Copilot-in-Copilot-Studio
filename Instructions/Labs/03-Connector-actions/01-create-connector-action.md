@@ -11,10 +11,10 @@ This exercise should take approximately **10** minutes to complete.
 
 ## Before you start
 
-This exercise assumes the following:
+This exercise focuses on adding connector actions to an existing agent. This exercise assumes the following:
 
-1. You've already created a **Product Support** declarative agent in Copilot Studio.
-1. You have a SharePoint site titled **Product Support** that contains a document library named **Products** containing files with sample product-related data.
+1. You've already created a **Product Support** declarative agent in Copilot Studio. If you need instructions for creating a declarative agent, see: [Create a declarative agent](../01-Build-your-first-declarative-agent/01-create-declarative-agent.md).
+1. You have a SharePoint site titled **Product Support** that contains a document library named **Products** containing files with sample product-related data. For instructions, see the section titled **Before you start** within the exercise: [Add custom knowledge](../01-Build-your-first-declarative-agent/02-add-custom-knowledge.md).
 
 ## Create a SharePoint connector action
 
