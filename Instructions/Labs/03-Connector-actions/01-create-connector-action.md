@@ -7,7 +7,7 @@ lab:
 
 In this exercise you will configure a connector action for a declarative agent in Copilot Studio. You'll use the "SharePoint - List folder" connector to retrieve a list of files from a Products folder that contains product support files.
 
-This exercise should take approximately **10** minutes to complete.
+This exercise should take approximately **15** minutes to complete.
 
 ## Before you start
 

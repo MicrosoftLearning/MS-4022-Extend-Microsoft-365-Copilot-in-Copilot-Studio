@@ -7,7 +7,7 @@ lab:
 
 In this exercise you will update the declarative agent you created in the previous exercise with custom instructions and grounding data. This exercise assumes you have a SharePoint site with a document library named "Products" that contains sample product files.
 
-This exercise should take approximately **10** minutes to complete.
+This exercise should take approximately **20** minutes to complete.
 
 ## Before you start
 
