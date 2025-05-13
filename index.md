@@ -17,6 +17,7 @@ Related learning path: [Extend Microsoft 365 Copilot in Copilot Studio](https://
 - Credentials needed to connect to desired content sources (connectors, APIs, etc.)
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
+{% assign labs = labs | sort: "lab.title" %}
 {% for activity in labs  %}
 - [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
 {% endfor %}
