@@ -70,15 +70,19 @@ Add the SharePoint URL to your agent as a grounding  knowledge source.
 
 ### Add SharePoint URL
 
-1. From your Product Support agent's overview page in Copilot Studio, select **Add knowledge** in the **Knowledge** section.
+1. In a web browser, navigate to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) at `https://copilotstudio.microsoft.com`.
+1. Select **Agents**.
+1. Select **Copilot for Microsoft 365**.
+1. Select your **Product Support** agent.
+1. From the **Knowledge** section of the agent overview page, select **Add Knowledge**.
 
     ![Screenshot of Copilot Studio in Microsoft Edge highlighting the Add knowledge button for the Product support agent.](../Media/product-support-add-knowledge.png)
 
-2. On the **Add knowledge** page of the wizard that opens, select **SharePoint**.
-3. In the text box, paste the URL of your **Products** SharePoint library then select **Add**. This should be in the format: `https://DOMAIN.sharepoint.com/sites/ProductSupport/Products`.
+1. On the **Add knowledge** page of the wizard that opens, select **SharePoint**.
+1. In the text box, paste the URL of your **Products** SharePoint library then select **Add**. This should be in the format: `https://DOMAIN.sharepoint.com/sites/ProductSupport/Products`.
 
-4. Select **Add** on the **Add SharePoint** window then wait for the knowledge source to be added to the agent. This may take a minute or two.
-5. Notice that the **Products** library is listed under the **Knowledge** section of the agent's overview information.
+1. Select **Add** on the **Add SharePoint** window then wait for the knowledge source to be added to the agent. This may take a minute or two.
+1. Notice that the **Products** library is listed under the **Knowledge** section of the agent's overview information.
 
 > **Note**: Copilot Studio agents access documents on behalf of the user. Your agent will only be able to get answers and content from documents your end users have access to.
 

@@ -9,18 +9,16 @@ In this exercise you will create a prompt action, test the prompt in Copilot Stu
 
 This exercise should take approximately **15** minutes to complete.
 
-## Create a prompt action in Copilot Studio
+## Create a custom prompt in Copilot Studio
 
 1. Open Copilot Studio in your web browser by navigating to [Copilot Studio](https://copilotstudio.microsoft.com) at `https://copilotstudio.microsoft.com`.
-1. Select **Library** from the left hand navigation.
-1. Select **Add new** then select **Prompt**. The **Add a prompt action** wizard opens.
-1. In the **Action name** field, enter `Create a Contoso Marketing Pitch`.
-1. In the **Description** field, enter `Create a marketing pitch that follows Contoso guidelines` then select **Next**. You're taken to the **Create prompt** page.
+1. Select **Tools** from the left hand navigation.
+1. Select **Create new** then select **Prompt**. Your taken to the prompt builder UI.
 1. In the **Instructions** text box, enter `Create a marketing pitch for a product based on a `.
 1. Place your cursor at the end of the sentence you entered then select **Add content**
 1. Select **Text**.
 1. In the **Name** field, enter `draft`.
-1. In the **Sample data** field, enter `The Mighty Mechanical Pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use.` then select **Close**.
+1.  In the **Sample data** field, enter `The Mighty Mechanical Pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use.` then select **Close**.
 
     ![Screenshot of the prompt builder UI in Copilot Studio showing an input variable being configured with the name "draft".](../Media/prompt-action-input.png)
 
@@ -44,37 +42,32 @@ Let's refine the prompt to create more structured and consistent output.
 1. Notice how the response differs.
 1. Select **Save**.
 
-## Configure and publish your action
+## Configure and publish your prompt
 
-1. On the **Select action parameters** page provide the following **description** for the `draft` input variable: `initial draft of the marketing pitch`.
-1. Provide the following **description** of the `text` output variable: `Final marketing pitch that adheres to Contoso guidelines`.
-1. Select **Next**.
-1. Ensure you've entered the details correctly then select **Publish**.
-1. Wait a few moments while your action is saved and published.
-1. Your action is now available in the Library. Select **Save and close**.
+After saving your prompt, the **Configure for use in Agent** window appears.
 
-   > **Note**: Your new prompt action may take several minutes or longer to appear in the **Featured** or **Library** sections of an agent's **Add action** page.
+1. In the **name** field, enter `Create a Contoso Marketing Pitch`.
+1. In the **Description for the agent to know when to use this tool** field, enter `Create a marketing pitch that follows Contoso guidelines` then select **Next**. You're taken to the **Create prompt** page.
+1. Select **Add**.
 
 ## (Optional) Add a prompt action to an agent
 
 If you've completed the previous lab and created a declarative agent, you may add this action to your agent and update the agent's instructions to reference the action.
 
-### Add the action
+### Add the prompt tool
 
-1. From the **Library** select the declarative agent you'd like to add the action to.
-1. From the **Details** section, select **Edit**.
-1. In the **Instructions** text box, add the following to the existing instructions text: `Use the Contoso Marketing Pitch action to help marketing stakeholders craft pitches for products based on their draft ideas.`
-1. On the agent details page under **Actions** select **Add action**.
-1. From the **Featured** or **Library** sections of the **Add action** modal window, select **Contoso Marketing Pitch**.
-1. On the action page, ensure the **Name** is `Create a Contoso Marketing Pitch`
-1. Ensure the **description** is `Create a marketing pitch that follows the Contoso guidelines`.
-1. Select **Add action**. This may take a few moments. The action is added to the list of actions available to the agent under **Actions**.
+1. From the sidebar in Copilot Studio, select **Agents**.
+1. Select **Microsoft 365 Copilot**.
+1. Under **Agents**, select the **Product Support** agent you'd like to add the action to.
+1. From the **Tools** section of the page, select **Add tool**.
+1. Select the **Prompt** filter.
+1. Select the **Create a Contoso Marketing Pitch** prompt.
+1. Select **Add to agent**. The tool is now listed in the Product Support agent's **Tools**.
 
-### Configure the action
+### Configure the prompt tool
 
-1. Select the `Contoso Marketing Pitch` action from the actions available to the agent. You're taken to a page to configure the action's properties and settings.
-1. Confirm that the **Action name** is set to `Create a new Contoso marketing pitch`.
-1. Select **Inputs** in the top navigation within the action.
+1. From the **Tools** section of the agent's overview page, select the `Contoso Marketing Pitch` tool. You're taken to a page to configure the tool's properties and settings.
+1. Select **Inputs** in the top navigation within the prompt tool.
 1. Under **Additional inputs** select **Add**.
 1. Select the **Draft** variable. A form appears.
 1. Ensure the **How will the agent fill this input** field is set to **Dynamically fill with the best option (default)**.
@@ -82,12 +75,18 @@ If you've completed the previous lab and created a declarative agent, you may ad
 1. Ensure the **Identify as** field is set to **User's entire response**
 1. Select **Save** at the top right of the window.
 
-## (Optional) Test your prompt action in Copilot Studio
+### Update the agent's instructions
 
-Next, test the agent with the action in Copilot Studio.
+Update the agent's instructions to provide guidance for using the prompt.
+
+1. In the **Instructions** text box, add the following to the existing instructions text: `Use the Contoso Marketing Pitch action to help marketing stakeholders craft pitches for products based on their draft ideas.`
+
+## (Optional) Test your prompt tool in Copilot Studio
+
+Next, test the agent with the prompt tool in Copilot Studio.
 
 1. From the **Test your agent** pane in your agent's overview page in Copilot Studio, select the **refresh** button to refresh the test pane and load your agent's latest changes.
 1. In the text box for the test conversation, enter `Create a Contoso marketing pitch based on the following draft: "Bouncy ball is the hottest product on the market for both youth and adults. It's durable and the largest of its kind."` then send the message.
-1. Review the response and note that the agent is following the guidance you provided in the custom prompt action's instructions.
+1. Review the response and note that the agent is following the guidance you provided in the custom prompt's instructions.
 
-You've completed the exercise and validated the functionality of your prompt action.
+You've completed the exercise and validated the functionality of your prompt tool.

@@ -108,7 +108,7 @@ Next, publish your declarative agent to Microsoft 365 Copilot. From the **Produc
 
 Next, let’s run the declarative agent in Microsoft 365 Copilot and validate its functionality in both the **immersive** and **in-context** experiences.
 
-Following the previous steps, you are currently in the **immersive** agent experience. Notice in the **Agents** pane to the right that **Product Support** is selected as the agent you are currently chatting directly with.
+Following the previous steps, you are currently in the **immersive** agent experience. Notice in the **Agents** pane to the side of the chat interface that **Product Support** is selected as the agent you are currently chatting directly with.
 
 ![Screenshot of the immersive experience with the Product Support agent in Microsoft 365 Copilot.](../Media/product-support-immersive.png)
 
@@ -117,7 +117,7 @@ Following the previous steps, you are currently in the **immersive** agent exper
 
 Continuing in the browser, let’s test the **in-context** experience.
 
-1. Above the **Agents** pane to the right of the chat window, select **Copilot** to exit your immersive chat with the **Product Support** agent and chat with Microsoft 365 Copilot.
+1. Above the **Agents** pane in the sidebar, select **Chat** or **M365 Copilot** to exit your immersive chat with the **Product Support** agent and chat with Microsoft 365 Copilot.
 
     ![Screenshot of the Copilot button in the sidebar of Microsoft 365 Copilot.](../Media/select-copilot.png)
 

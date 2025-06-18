@@ -19,7 +19,9 @@ This exercise focuses on adding connector actions to an existing agent. This exe
 ## Create a SharePoint connector action
 
 1. In your web browser, navigate to [Copilot Studio](https://www.copilotstudio.microsoft.com) at `https://www.copilotstudio.microsoft.com`.
-1. From the **Library** select your **Product Support** agent.
+1. In the sidebar, select **Agents**.
+1. Select **Microsoft 365 Copilot**.
+1. Under **Agents**, select your **Product Support** agent.
 1. Under **actions** select **Add action**.
 1. In the **Add action** window, enter `SharePoint` in the **Search** bar. Wait for relevant actions to be displayed in the window.
 1. Browse and select the **List Folder SharePoint** connector action.
