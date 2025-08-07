@@ -3,9 +3,9 @@ lab:
     title: '1.3: Add starter prompts'
 ---
 
-# Add starter prompts
+# Add suggested prompts
 
-In this exercise you will update the declarative agent you created in the previous exercise with six starter prompts.
+In this exercise, you will update the declarative agent you created in the previous exercise with six suggested prompts.
 
 This exercise should take approximately **10** minutes to complete.
 
@@ -14,10 +14,10 @@ This exercise should take approximately **10** minutes to complete.
 In Copilot Studio:
 
 1. Navigate to your **Product Support** agent's **Overview** page.
-1. In the **Starter Prompts** section, select **Edit**.
+1. In the **Suggested Prompts** section, select **Add suggested prompts**.
 1. Add the following six starter prompts:
 
-      | Title                  | Text                                              |
+      | Title                  | Prompt                                              |
       |------------------------|--------------------------------------------------|
       | Product information    | Tell me about Eagle Air                          |
       | Returns policy         | What is the returns policy?                      |
@@ -42,7 +42,7 @@ Let's publish the updated agent to Microsoft 365 Copilot.
 ## Test your agent in Microsoft 365 Copilot
 
 1. In **Microsoft 365 Copilot**, select the icon in the top right to expand the **Copilot side panel**.
-1. Find **Product support** in the list of agents and select it to enter the immersive experience to chat directly with the agent. Notice that the starter prompts you defined in Copilot Studio display in the user interface.
+1. Find **Product support** in the list of agents and select it to enter the immersive experience to chat directly with the agent. Notice that the suggested prompts you defined in Copilot Studio display in the user interface.
 
     ![Screenshot of Microsoft 365 Copilot in Microsoft Edge showing the Product Support agent's starter prompts.](../Media/product-support-starter-prompts.png)
-1. **Select** a starter prompt and review the response.
+1. **Select** a suggested prompt and review the response.
