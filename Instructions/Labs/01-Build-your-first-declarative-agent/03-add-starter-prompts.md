@@ -9,13 +9,13 @@ In this exercise, you will update the declarative agent you created in the previ
 
 This exercise should take approximately **10** minutes to complete.
 
-## Define starter prompts
+## Define suggested prompts
 
 In Copilot Studio:
 
 1. Navigate to your **Product Support** agent's **Overview** page.
 1. In the **Suggested Prompts** section, select **Add suggested prompts**.
-1. Add the following six starter prompts:
+1. Add the following prompts:
 
       | Title                  | Prompt                                              |
       |------------------------|--------------------------------------------------|
