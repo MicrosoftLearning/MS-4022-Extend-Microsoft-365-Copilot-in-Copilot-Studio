@@ -28,7 +28,6 @@ Create a connector tool using the SharePoint List Folder prebuilt connector and 
 1. In the **Add tool** window, enter `SharePoint` in the **Search** bar. Wait for relevant connectors to be displayed in the window.
 1. Browse and select the **List Folder** SharePoint connector.
 1. The modal window displays a connection for the SharePoint connector. A green checkmark will be displayed next to the connector when your connection is active. You may select the **...** to view details about the connection. If the status is `Not connected`, select the dropdown next to **Not connected** and select **Create new connection**.
-    ![Screenshot of the SharePoint connection status](../Media/SharePoint-connection.png)
 1. On the **Connect to SharePoint** page, select **Connect directly (cloud services)** then select **Create**.
 1. You will be prompted to sign in. Sign in using the M365 account you're using for the exercise.
 1. On the **Add tool** page, after a connection is established, select **Add to agent** to add the tool to your agent.
