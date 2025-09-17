@@ -30,17 +30,17 @@ Create a connector tool using the SharePoint List Folder prebuilt connector and 
 1. The modal window displays a connection for the SharePoint connector. A green checkmark will be displayed next to the connector when your connection is active. You may select the **...** to view details about the connection. If the status is `Not connected`, select the dropdown next to **Not connected** and select **Create new connection**.
 1. On the **Connect to SharePoint** page, select **Connect directly (cloud services)** then select **Create**.
 1. You will be prompted to sign in. Sign in using the M365 account you're using for the exercise.
-1. On the **Add tool** page, after a connection is established, select **Add to agent** to add the tool to your agent.
+1. On the **Add tool** page, after a connection is established, select **Add and configure** to add the tool to your agent and configure its properties. If the button shows "Add to agent" instead, select it and then click on the newly created tool from the Tools list to configure its properties.
 
 ## Configure the connector tool for your agent
 
-Configure the properties of the connector tool for the agent.
+Configure the properties of the connector tool for the agent. If you selected "Add and configure" in the previous step, you should already be on the configuration screen. If not, follow the steps below to access the configuration.
 
 1. From the **Product Support** agent page, under **Tools** select the **List folder - connector** tool you added in the previous section.
 1. In the **Name** text box, enter `List product support files`.
 1. In the **Description** text box, enter `List product support files available in the Products folder`.
 1. Select the toggle next to **Additional details** to reveal additional properties.
-1. In the **Description** text box in the **Additional details** section, enter `Please log in to access the Product Support SharePoint."
+1. In the **Description** text box in the **Additional details** section, enter `Please log in to access the Product Support SharePoint.`
 1. In the **Inputs** section,  locate the **Site Address** input. In the **Value** text box, enter the URL to your **Product Support** SharePoint site in the format `https://DOMAIN.sharepoint.com/sites/ProductSupport` then select **Done**.
 1. Next, locate the **File Identifier** input. Set the **Fill using** field to **Custom value** from the drop-down.
 1. In the **Value** text box for **File Identifier**, enter `Products` then select **Done**.
@@ -55,6 +55,8 @@ Let's also update your agent's instructions, providing guidance to the agent for
 1. Select **Save**.
 
 ## Test your agent with the tool
+
+> **Note**: If you haven't configured the connection properly, the chat interface may prompt you to configure the connection when testing. You can access connection management through the interface if needed.
 
 1. Expand the **Test your agent** pane on the right side of your agent's detail page.
 1. Select the **refresh** button in the test pane to load your agent's latest changes.
