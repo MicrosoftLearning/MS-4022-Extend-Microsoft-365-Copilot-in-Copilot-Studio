@@ -27,7 +27,7 @@ This exercise should take approximately **15** minutes to complete.
 ## Test and refine your prompt
 
 1. Select **Test** above the instructions box to test the prompt with the sample data you provided.
-1. View the output of the test run in the **Model respoonse** section.
+1. View the output of the test run in the **Model response** section.
 
 Let's refine the prompt to create more structured and consistent output.
 
