@@ -74,8 +74,8 @@ Next, test the behavior of your agent in the test pane within Copilot Studio bef
 
     Also notice that the agent currently has instructions but does not yet have any custom knowledge sources or actions. You haven't configured the agent to be able to accurately answer questions about Contoso products yet. You'll do this in the next exercise.
 
-    > [!NOTE]
-    > If you need to edit your agent, select **edit** in the **Details** section of the agent overview page. Save your changes. Before testing again, select the **Start new test session** button inside of the test pane.
+> [!NOTE]
+> If you need to edit your agent, select **edit** in the **Details** section of the agent overview page. Save your changes. Before testing again, select the **Start new test session** button inside of the test pane.
 
 ## Publish the agent to Microsoft 365 Copilot
 
@@ -83,8 +83,8 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 
 1. Select the **Publish** button. You're prompted to enter information about your agent that will be displayed to users in Microsoft 365 Copilot and Microsoft Teams.
 
-    > [!NOTE]
-    > The information on this form is used to populate the catalog entry in your organization's Office and Teams Catalogs and the Microsoft Admin Center Integrated Apps list. It isn't used by the Microsoft 365 Copilot language model to invoke your agent.
+> [!NOTE]
+> The information on this form is used to populate the catalog entry in your organization's Office and Teams Catalogs and the Microsoft Admin Center Integrated Apps list. It isn't used by the Microsoft 365 Copilot language model to invoke your agent.
 
 1. In the **Short description** text box enter `Answers questions about Contoso Electronics products`, replacing the automatically generated content.
 1. Accept the default suggestions for the remaining fields.
@@ -92,8 +92,8 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
     ![Screenshot of the Publish agent window before selecting the Publish button.](../Media/publish-window.png)
 1. Wait for the agent to be published.  Do not close the modal window during publishing. This may take a few minutes.
 
-    > [!NOTE]
-    > When you select Publish, a bot resource corresponding to your agent is provisioned in your tenant's Microsoft Entra ID environment. The resource allows users to interact with the agent in Microsoft Teams.
+> [!NOTE]
+> When you select Publish, a bot resource corresponding to your agent is provisioned in your tenant's Microsoft Entra ID environment. The resource allows users to interact with the agent in Microsoft Teams.
 
 1. Once the agent is published, the **Availability options** window appears.
 1. Under **Share link** select **Copy** to copy the share link for your agent then select **Done**.
