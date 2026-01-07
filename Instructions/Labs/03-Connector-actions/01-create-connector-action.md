@@ -27,13 +27,16 @@ Create a connector tool using the SharePoint List Folder prebuilt connector and 
 1. Under **Tools** select **Add tool**.
 1. In the **Add tool** window, select the **Connector** button to filter for Connector tools then enter `SharePoint` in the **Search** bar and select **Search**. Wait for relevant connectors to be displayed in the window.
 1. Browse and select the **List Folder** SharePoint connector.
+
     ![Screenshot of the Add tool window highlighting the List folder connector.](../Media/add-tool-list-folder.png)
 1. The modal window displays a connection for the SharePoint connector. A green checkmark will be displayed next to the connector when your connection is active. You may select the **...** to view details about the connection. If the status is `Not connected`, select the dropdown next to **Not connected** and select **Create new connection**.
+
     ![Screenshot of the Add tool window highlighting the Create new connection button.](../Media/create-new-connection.png)
 1. On the **Connect to SharePoint** page, select **Connect directly (cloud services)** then select **Create**.
 1. You will be prompted to sign in. Sign in using the M365 account you're using for the exercise.
 1. On the **Add tool** page, after a connection is established, select **Add and configure** to add the tool to your agent.
 1. Confirm that the **List folder - connector** tool is listed in the **Tools** section of your agent.
+
     ![Screenshot of the Tools section of the Product Support agent after the connector tool has been added.](../Media/connector-tool-added.png)
 
 ## Configure the connector tool for your agent
@@ -64,6 +67,7 @@ Let's also update your agent's instructions, providing guidance to the agent for
 1. Select the **Start new test session** button in the test pane to load your agent's latest changes.
 1. In the message box, enter `What product support files are available?` then send the message.
 1. Notice that your agent responds with a comment about the connector that was used, as instructed, and lists the files available in the Products folder.
+
     ![Screenshot of the test pane results while testing the list folder connector.](../Media/test-agent-connector.png)
 
 You've validated that your connector tool works as expected within your agent and completed this exercise.

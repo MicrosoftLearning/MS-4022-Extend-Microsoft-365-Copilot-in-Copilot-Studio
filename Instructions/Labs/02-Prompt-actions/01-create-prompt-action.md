@@ -57,8 +57,10 @@ If you've completed the previous lab and created a declarative agent, you may ad
 1. From the **Tools** section of the page, select **Add tool**.
 1. Select the **Prompt** filter.
 1. Select the **Marketing Pitch Prompt** tool.
+
     ![Screenshot of the Add tool window listing the Marketing Pitch Prompt tool.](../Media/add-marketing-pitch-tool.png)
 1. Select **Add and configure** and wait for the tool to be added. The tool is now listed in the Product Support agent's **Tools**.
+
     ![Screenshot of the Product Support agent's Tools section, listing the Marketing Pitch Prompt tool.](../Media/agent-updated-tools.png)
 
 ### Update the agent's instructions and starter prompts
