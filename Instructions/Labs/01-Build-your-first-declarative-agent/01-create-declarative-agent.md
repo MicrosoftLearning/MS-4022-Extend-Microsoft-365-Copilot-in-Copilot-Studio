@@ -120,7 +120,7 @@ Following the previous steps, you are currently in the **immersive** agent exper
 ![Screenshot of the immersive experience with the Product Support agent in Microsoft 365 Copilot.](../Media/product-support-immersive.png)
 
 1. In the text box, enter `What can you do?` and submit your message.
-1. Send the message and wait for the response. Notice how the response starts with the text "Thank you for your question!" following the guidance you provided in the agent's instructions.
+1. Send the message and wait for the response. Notice how the response starts with the text "Thanks for using a Copilot agent!" following the guidance you provided in the agent's instructions.
 
 Continuing in the browser, let’s test the **in-context** experience.
 
