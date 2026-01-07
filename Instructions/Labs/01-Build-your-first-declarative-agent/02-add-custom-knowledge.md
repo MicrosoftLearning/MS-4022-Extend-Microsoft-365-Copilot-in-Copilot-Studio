@@ -31,6 +31,7 @@ Before you can start this exercise, you will need to upload the product-related 
 
 1. In your web browser, navigate to [https://m365.cloud.microsoft](https://m365.cloud.microsoft/chat) and **sign in** with the Microsoft 365 account you're using for this lab. 
 1. In the left-hand menu, select **Apps** (grid icon) and then "All apps" to open the menu of Microsoft 365 apps.
+
     ![Screenshot of the M365 apps button in Copilot Chat.](../Media/apps-icon.png)
 1. Select **SharePoint** from the catalog of apps.
 1. From the left-hand menu, select **Create site**.
@@ -79,6 +80,7 @@ Add the SharePoint URL to your agent as a grounding  knowledge source.
 
 1. Select **Add to agent** then wait for the knowledge source to be added to the agent. This may take a minute.
 1. Notice that the **Products** library is listed under the **Knowledge** section of the agent's overview information.
+
     ![Screenshot of the Knowledge section of the Product Support agent, showing the Products library added to the agent.](../Media/agent-knowledge-products.png)
 
     > **Note**: Copilot Studio agents access documents on behalf of the user. Your agent will only be able to get answers and content from documents your end users have access to.
@@ -110,4 +112,5 @@ Finally, let's test the fallback response by asking a question that the agent ca
 
 1. In the message box, enter `When was Mark8 released?` and send the message.
 1. Wait for the response. Notice that the response suggests that the agent should reach out to the team responsible for further assistance as defined in the instructions.
+
     ![Screenshot of the agent's response in the test pane.](../Media/test-agent-knowledge.png)
