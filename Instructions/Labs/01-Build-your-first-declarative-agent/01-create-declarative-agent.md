@@ -32,11 +32,11 @@ Start by creating a new declarative agent in Copilot Studio. Use generative AI t
 
 ## Configure the agent and define instructions
 
-Next, update the agent's properties and metadata manually to ensure consistent results for this exercise.
+Next, configure the agent's properties and metadata manually to ensure consistent results for this exercise.
 
-1. Review the **Name** that the generative AI wizard defined for your agent. Update the name, if necessary, to ensure it is `Product support`.
-1. Review the **description** property and update it to  `A product support agent that can answer queries about Contoso Electronics products`.
-1. In the **Instructions** text box, replace any existing instructions with the following:
+1. In the **Name** field,enter `Product support`.
+1. In the **description** property enter `A product support agent that can answer queries about Contoso Electronics products`.
+1. In the **Instructions** text box, enter the following:
   
     ```md
         - You are an agent tasked with answering questions about Contoso Electronics products.
