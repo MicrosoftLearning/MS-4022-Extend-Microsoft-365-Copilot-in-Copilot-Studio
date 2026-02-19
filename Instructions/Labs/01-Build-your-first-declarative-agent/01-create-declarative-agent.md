@@ -17,9 +17,9 @@ Start by creating a new declarative agent in Copilot Studio. Use generative AI t
 1. Sign in using a work or school account where you have permission to create in Copilot Studio.
 1. If prompted on the **Welcome to Microsoft Copilot Studio** page, select your country/region and then select **Get Started**.
 1. If you're presented with the **Welcome to Copilot Studio!** popup, select **Skip**.
-1. When you reach Copilot Studio, you'll likely start in the conversational interface for creating a new agent. This wizard helps you set up a *custom* agent.  Select **...** then select **Cancel agent creation** to exit this wizard.  Select **Leave** to confirm.
+1. When you reach Copilot Studio, you'll likely start on the Home page for creating a new agent.
 
-    ![Screenshot of the conversational interface for creating a custom agent.](../Media/custom-agent-wizard.png)
+    ![Screenshot of the conversational interface for creating a custom agent.](../Media/copilot-start-screen.png)
 
 1. Navigate to **Agents** in the left side navigation panel.
 1. Select **Microsoft 365 Copilot** from the agents page.
@@ -27,26 +27,16 @@ Start by creating a new declarative agent in Copilot Studio. Use generative AI t
 
     ![Screenshot of the Microsoft 365 Copilot agent page in Copilot Studio.](../Media/add-copilot-agent.png)
 
-    You're sent to the conversational authoring experience where you can describe the agent you'd like to build.
+    You're sent to the agent creation page,where you can define the details of the agent you want to build.
 
-1. You're asked to describe what you'd like your agent to do.  In the **Type your message** text box in the conversational interface, enter the following:
-
-    ```md
-    I'd like to create a product support agent that answers questions related to Contoso Electronics products.
-    ```
-
-1. Select **enter** or **send** to send your message. The wizard begins configuring your agent.
-1. If prompted to suggest a name for your agent, enter `Product support` and send your message. The wizard updates the agent's name.
-1. The wizard will prompt you for more info about the agent. Instead of responding, select **Skip to configure** at the top of the conversational interface to view the agent's overview page and review what the generative AI configured so far.
-![Screenshot of the conversational interface for agent creation, highlighting the skip to configure button.](../Media/skip-to-configure-agent.png)
 
 ## Configure the agent and define instructions
 
-Next, update the agent's properties and metadata manually to ensure consistent results for this exercise.
+Next, configure the agent's properties and metadata manually to ensure consistent results for this exercise.
 
-1. Review the **Name** that the generative AI wizard defined for your agent. Update the name, if necessary, to ensure it is `Product support`.
-1. Review the **description** property and update it to  `A product support agent that can answer queries about Contoso Electronics products`.
-1. In the **Instructions** text box, replace any existing instructions with the following:
+1. In the **Name** field,enter `Product support`.
+1. In the **description** property enter `A product support agent that can answer queries about Contoso Electronics products`.
+1. In the **Instructions** text box, enter the following:
   
     ```md
         - You are an agent tasked with answering questions about Contoso Electronics products.
