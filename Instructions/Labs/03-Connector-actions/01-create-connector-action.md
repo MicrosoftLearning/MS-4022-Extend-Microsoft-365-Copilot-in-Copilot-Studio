@@ -1,6 +1,10 @@
 ---
 lab:
-    title: '3.1: Create a connector tool'
+  title: '3.1: Create a connector tool'
+  description: In this exercise, you will configure a connector tool for a declarative agent in Copilot Studio. You'll use the "SharePoint - List folder" connector to retrieve a list of files from a Products folder that contains product support files.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Create a connector tool
