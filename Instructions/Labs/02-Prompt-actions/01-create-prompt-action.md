@@ -1,6 +1,13 @@
 ---
 lab:
-    title: '2.1: Create a prompt action'
+  title: '2.1: Create a prompt action'
+  description: In this exercise you will create a prompt action, test the prompt in
+    Copilot Studio, and test the prompt within a Copilot agent. You'll create a prompt
+    action that helps users turn their raw ideas into organized marketing pitches
+    that follow a specific format and guidelines.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Create a prompt action
