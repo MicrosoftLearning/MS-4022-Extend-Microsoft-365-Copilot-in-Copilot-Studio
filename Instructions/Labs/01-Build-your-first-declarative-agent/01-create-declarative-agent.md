@@ -3,7 +3,7 @@ lab:
   title: '1.1: Create a declarative agent'
   description: In this exercise you will create a declarative agent using generative AI, refine the instructions, publish the agent to Microsoft 365, and test the agent in Microsoft 365 Copilot.
   duration: 20 minutes
-  level: 100
+  level: 200
   islab: true
   primarytopics:
     - Microsoft 365
