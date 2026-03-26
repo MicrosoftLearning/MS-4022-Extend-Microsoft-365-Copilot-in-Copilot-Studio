@@ -3,7 +3,7 @@ lab:
   title: '1.2: Add custom knowledge'
   description: In this exercise you will update the declarative agent you created in the previous exercise with custom instructions and grounding data.
   duration: 20 minutes
-  level: 100
+  level: 200
   islab: true
 ---
 
