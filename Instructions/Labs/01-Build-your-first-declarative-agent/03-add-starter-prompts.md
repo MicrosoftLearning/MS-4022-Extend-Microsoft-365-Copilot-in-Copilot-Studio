@@ -3,7 +3,7 @@ lab:
   title: '1.3: Add suggested prompts'
   description: In this exercise, you will update the declarative agent you created in the previous exercise with six appropriate suggested prompts.
   duration: 10 minutes
-  level: 100
+  level: 200
   islab: true
 ---
 
