@@ -16,15 +16,15 @@ This exercise should take approximately **15** minutes to complete.
 ## Create a custom prompt in Copilot Studio
 
 1. Open Copilot Studio in your web browser by navigating to [Copilot Studio](https://copilotstudio.microsoft.com) at `https://copilotstudio.microsoft.com`.
-1. Select **Tools** from the left hand navigation.
-1. Select **New tool**.
-1. On the New Tool popup window, select **Prompt**. You're taken to the prompt builder UI. Copilot is available within this window, but we'll define our prompt manually for this exercise.
-1. In the textbox at the top of the window, select the auto-generated name and replace it with the name **Marketing Pitch Prompt**.
+1. Select **Tools** from the left navigation.
+1. Select **+ New tool**.
+1. On the **New tool** dialog box, select **Prompt**. You're taken to the prompt builder UI. Copilot is available within this window, but you'll define the prompt manually for this exercise.
+1. In the textbox at the top of the window, select the auto-generated name and replace it with the name `Marketing Pitch Prompt`.
 1. In the **Instructions** text box, enter `Create a marketing pitch for a product based on a `.
-1. Place your cursor at the end of the sentence you entered then select **Add content**
+1. Place your cursor at the end of the sentence you entered, then select **Add content**.
 1. Select **Text**.
 1. In the **Name** field, enter `Draft`.
-1.  In the **Sample data** field, enter `The Mighty Mechanical Pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use.` then select **Close**.
+1. In the **Sample data** field, enter `The Mighty Mechanical Pencil is new, exciting, and useful. It's not only the first of its kind pencil, but it's fun to use.` then select **Close**.
 
     ![Screenshot of the prompt builder UI in Copilot Studio showing an input variable being configured with the name "Draft".](../Media/prompt-content-sample-data.png)
 
@@ -35,9 +35,10 @@ This exercise should take approximately **15** minutes to complete.
 
 Let's refine the prompt to create more structured and consistent output.
 
-1. In the **Instructions** textbox, add the following to the existing instructions to modify the prompt:
+1. In the **Instructions** text box, add the following to the existing instructions to modify the prompt:
 
-    ```The pitch should follow the following Contoso guidelines:
+    ```plaintext
+    The pitch should follow the following Contoso guidelines:
        - Start with a brief hook
        - Describe unique value proposition
        - End with a call-to-action
@@ -71,7 +72,9 @@ If you've completed the previous lab and created a declarative agent, you may ad
 
 Update the agent's instructions to provide guidance for using the prompt.
 
-1. In the **Instructions** text box, add the following to the existing instructions text and then **Save** your changes: `Use the Marketing Pitch Prompt tool to craft pitches for products that follow Contoso guidelines based on users' draft ideas.`
-1. In the **Suggested prompts** section, replace the Eagle Air suggested prompt with the following suggested prompt and then **save** your changes: `Marketing Pitch` : `Create a marketing pitch following Contoso guidelines based on the following draft:`.
+1. In the **Details** section, select **Edit**.
+1. In the **Instructions** text box, add the following text to the existing instructions: `Use the Marketing Pitch Prompt tool to craft pitches for products that follow Contoso guidelines based on users' draft ideas.`
+1. Select **Save** to save your changes.
+1. In the **Suggested prompts** section, replace the Eagle Air suggested prompt with the following suggested prompt and then **Save** your changes: `Marketing Pitch` : `Create a marketing pitch following Contoso guidelines based on the following draft:`.
 
 You've completed the exercise and created a prompt tool for your agent.
