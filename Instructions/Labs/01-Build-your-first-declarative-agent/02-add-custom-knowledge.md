@@ -110,14 +110,14 @@ Finally, test your agent's ability to use the custom knowledge source.
 1. In the text box for the test conversation, enter `Tell me about Eagle Air` and send the message.
 1. Wait for the response. Notice that the response contains information about the Eagle Air drone. The response contains citations and references to the Eagle Air document stored in SharePoint.
 
-Let's try a few more prompts:
+   Let's try a few more prompts:
 
 1. In the message box, enter `Recommend a product suitable for a farmer` and send the message.
-1. Wait for the response. Notice that the response contains information about the Eagle Air and some extra context as to why the Eagle Air is recommended. The response contains citations and references to the Eagle Air document stored in OneDrive.
+1. Wait for the response. Notice that the response contains information about the Eagle Air and some extra context as to why the Eagle Air is recommended. The response contains citations and references to the Eagle Air document stored in SharePoint.
 1. In the message box, enter `Explain why the Eagle Air is more suitable than Contoso Quad` and send the message.
 1. Wait for the response. Notice that the response explains in more detail why the Eagle Air is more suitable than the Contoso Quad for use by farmers.
 
-Finally, let's test the fallback response by asking a question that the agent can't answer:
+   Finally, let's test the fallback response by asking a question that the agent can't answer:
 
 1. In the message box, enter `When was Mark8 released?` and send the message.
 1. Wait for the response. Notice that the response suggests that the agent should reach out to the team responsible for further assistance as defined in the instructions.
