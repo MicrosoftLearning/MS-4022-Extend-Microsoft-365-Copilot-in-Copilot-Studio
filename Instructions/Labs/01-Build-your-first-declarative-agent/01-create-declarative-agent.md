@@ -31,19 +31,19 @@ Start by creating a new declarative agent in Copilot Studio. Use generative AI t
 
 1. Navigate to **Agents** in the left side navigation panel.
 1. Select **Microsoft 365 Copilot** from the agents page.
-1. On the **Microsoft 365 Copilot** agent page select **Add** within the Agents section.
+1. On the **Microsoft 365 Copilot** agent page, select **Add** within the **Agents** section.
 
     ![Screenshot of the Microsoft 365 Copilot agent page in Copilot Studio.](../Media/add-copilot-agent.png)
 
-    You're sent to the agent creation page,where you can define the details of the agent you want to build.
+    You're sent to the agent creation page, where you can define the details of the agent you want to build.
 
 
 ## Configure the agent and define instructions
 
 Next, configure the agent's properties and metadata manually to ensure consistent results for this exercise.
 
-1. In the **Name** field,enter `Product support`.
-1. In the **Description** field enter `A product support agent that can answer queries about Contoso Electronics products`.
+1. In the **Name** field, enter `Product support`.
+1. In the **Description** field, enter `A product support agent that can answer queries about Contoso Electronics products`.
 1. In the **Instructions** text box, enter the following:
   
     ```md
@@ -53,7 +53,7 @@ Next, configure the agent's properties and metadata manually to ensure consisten
         - Maintain a helpful and approachable tone throughout interactions.
     ```
 
-1. Note that suggested prompts are generated using generative AI.Leave the **Suggested prompts** section empty for now. You will update these prompts in an upcoming exercise.
+1. Note that suggested prompts are generated using generative AI. Leave the **Suggested prompts** section empty for now. You will update these prompts in an upcoming exercise.
 1. Select **Create** at the top of the page to create the agent.  After a few moments, you are taken to the agent's overview page.
 
 ## Test the agent in Copilot Studio
@@ -91,10 +91,11 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 1. Wait for the agent to be published.  Do not close the modal window during publishing. This may take a few minutes.
 
 > [!NOTE]
-> When you select Publish, a bot resource corresponding to your agent is provisioned in your tenant's Microsoft Entra ID environment. The resource allows users to interact with the agent in Microsoft Teams.
+> When you select **Publish**, a bot resource corresponding to your agent is provisioned in your tenant's Microsoft Entra ID environment. The resource allows users to interact with the agent in Microsoft Teams.
 
 1. Once the agent is published, the **Availability options** window appears.
-1. Under **Share link**, select **Copy** to copy the share link for your agent then select **Done**.
+1. Under **Share link**, select **Copy** to copy the share link for your agent, then select **Done**.
+
     ![Screenshot of the Availability options window highlighting the Copy button.](../Media/share-link-copy.png)
 1. Notice that the **Publish details** section of your agent's overview page reflects that the agent has been published.
 
@@ -120,13 +121,14 @@ Following the previous steps, you are currently in the **immersive** agent exper
 1. In the prompt box, enter `What can you do?` and submit your message.
 1. Send the message and wait for the response. Notice how the response starts with the text "Thanks for using a Copilot agent!" following the guidance you provided in the agent's instructions.
 
-Continuing in the browser, let's test the **in-context** experience.
+    Continuing in the browser, let's test the **in-context** experience.
 
 1. Above the **Agents** pane in the sidebar, select **New chat** to start a new conversation with Microsoft 365 Copilot, exiting your immersive chat with the **Product Support** agent.
 
     ![Screenshot of the Copilot button in the sidebar of Microsoft 365 Copilot.](../Media/select-copilot.png)
 
-1. In the prompt box, enter the <kbd>@</kbd> symbol. A flyout appears with a list of available agents
+1. In the prompt box, enter the <kbd>@</kbd> symbol. A flyout appears with a list of available agents.
+
     ![Screenshot of Microsoft Edge showing the agents flyout in Microsoft 365 Copilot.](../Media/copilot-agents-flyout.png)
 
 1. In the flyout, select **Product Support**. You're now chatting with your Product Support agent **in-context** within a conversation with Copilot, meaning your agent can consider context from your conversation with Copilot.
