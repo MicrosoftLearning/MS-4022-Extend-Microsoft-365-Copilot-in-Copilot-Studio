@@ -20,12 +20,12 @@ Before you can start this exercise, you will need to upload the product-related 
 > [!NOTE]
 > When you upload documents to a new SharePoint Online site, there's a delay before the documents are indexed and available for use by Copilot. If you wish to test your agent immediately, then upload the documents to an **existing** site. The documents will be indexed and available for use by the agent without delay. If you choose to use a new SharePoint Online site, the documents may take longer to be indexed and available for use by Copilot.
 >
-> **The instructions below guide you through uploading the documents to a new site**. If you'd like to use an existing site, start with the section labeled **Upload sample data** and use your existing library in place of the **Products** library.
+> The instructions below guide you through uploading the documents to a new site. If you'd like to use an existing site, start with the section labeled **Upload sample data** and use your existing library in place of the **Products** library.
 
 ### Download the sample data
 
-1. In a web browser, navigate to the course's [GitHub repo](https://github.com/MicrosoftLearning/MS-4022-Extend-Microsoft-365-Copilot-in-Copilot-Studio/blob/master/Allfiles/Products.zip).
-1. Select the **download raw file** button to download **Products.zip**.
+1. In a web browser, navigate to the course's [GitHub repo](https://github.com/MicrosoftLearning/MS-4022-Extend-Microsoft-365-Copilot-in-Copilot-Studio/blob/master/Allfiles/Products.zip) at `https://github.com/MicrosoftLearning/MS-4022-Extend-Microsoft-365-Copilot-in-Copilot-Studio/blob/master/Allfiles/Products.zip`.
+1. Select the **Download raw file** button to download **Products.zip**.
 
     ![Screenshot of Microsoft Edge highlighting the download raw file button in GitHub.](../Media/download-raw-file.png)
 
@@ -33,7 +33,7 @@ Before you can start this exercise, you will need to upload the product-related 
 
 ### Create a SharePoint site
 
-1. In your web browser, navigate to [**https://m365.cloud.microsoft**](https://m365.cloud.microsoft.com) and **sign in** with the Microsoft 365 account you're using for this lab. 
+1. In your web browser, navigate to [Microsoft 365 Copilot](https://m365.cloud.microsoft.com) at `https://m365.cloud.microsoft.com` and sign in with the Microsoft 365 account you're using for this lab. 
 1. Select the **App Launcher** icon (grid icon) in the top left corner of the page, then select **More Apps**.
     ![Screenshot of the M365 apps button in Copilot Chat.](../Media/apps-icon.png)
 1. Select **SharePoint** from the catalog of apps.
@@ -44,8 +44,8 @@ Before you can start this exercise, you will need to upload the product-related 
 1. On the **Select a site template** page, under the **From Microsoft** section, select **Standard team**.
 1. On the **Preview site template** page, select **Use template**.
 1. On the **Give your site a name** page, enter `Product support`.
-   > [!NOTE]
-   > If the message **The site address is available with modification** appears, modify the site name until the message indicates that the site address is available. You can accept the suggested modification or create your own.
+> [!NOTE]
+> If the message **The site address is available with modification** appears, modify the site name until the message indicates that the site address is available. You can accept the suggested modification or create your own.
 1. Change the **Privacy settings** to **Public - anyone in the organization can access this site**.
 1. Select **Create site**. Creation of the site may take a few moments before the **Go to site** button is activated.
 1. Select **Go to site**. You're navigated to your new SharePoint site in the browser.
@@ -91,8 +91,8 @@ Add the SharePoint URL to your agent as a grounding knowledge source.
 
     ![Screenshot of the Knowledge section of the Product Support agent, showing the Products library added to the agent.](../Media/agent-knowledge-products.png)
 
-   > [!NOTE]
-   > Copilot Studio agents access documents on behalf of the user. Your agent will only be able to get answers and content from documents your end users have access to.
+> [!NOTE]
+> Copilot Studio agents access documents on behalf of the user. Your agent will only be able to get answers and content from documents your end users have access to.
 
 ### Update custom instructions
 
