@@ -73,7 +73,7 @@ Next, test the behavior of your agent in the test pane within Copilot Studio bef
     Also notice that the agent currently has instructions but does not yet have any custom knowledge sources or actions. You haven't configured the agent to be able to accurately answer questions about Contoso products yet. You'll do this in the next exercise.
 
 > [!NOTE]
-> If you need to edit your agent, select **edit** in the **Details** section of the agent overview page. Save your changes. Before testing again, select the **Start new test session** button inside of the test pane.
+> If you need to edit your agent, select **edit** in the **Details** section of the agent overview page. Save your changes. Before testing again, select the **New Chat** button inside of the test pane.
 
 ## Publish the agent to Microsoft 365 Copilot
 
