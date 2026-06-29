@@ -31,9 +31,10 @@ This exercise should take approximately **15** minutes to complete.
 ## Test and refine your prompt
 
 1. Select **Test** above the instructions box to test the prompt with the sample data you provided.
+
 1. View the output of the test run in the **Model response** section.
 
-Let's refine the prompt to create more structured and consistent output.
+   Let's refine the prompt to create more structured and consistent output.
 
 1. In the **Instructions** text box, add the following to the existing instructions to modify the prompt:
 
@@ -73,8 +74,11 @@ If you've completed the previous lab and created a declarative agent, you may ad
 Update the agent's instructions to provide guidance for using the prompt.
 
 1. In the **Details** section, select **Edit**.
+
 1. In the **Instructions** text box, add the following text to the existing instructions: `Use the Marketing Pitch Prompt tool to craft pitches for products that follow Contoso guidelines based on users' draft ideas.`
+
 1. Select **Save** to save your changes.
+
 1. In the **Suggested prompts** section, replace the Eagle Air suggested prompt with the following suggested prompt and then **Save** your changes: `Marketing Pitch` : `Create a marketing pitch following Contoso guidelines based on the following draft:`.
 
 You've completed the exercise and created a prompt tool for your agent.
