@@ -47,8 +47,10 @@ Let's publish the updated agent to Microsoft 365 Copilot.
     ![Screenshot of the Availability options window.](../Media/availability-options-share-link.png)
 1. In a different tab of your web browser, **paste** your agent's share link and press **Enter**. A window appears describing the **Product Support** agent.
 1. Wait a few moments while the changes are published to the Product Support agent.
+  
    > [!NOTE]
    > It can take several minutes for newly published suggested prompts to appear in Microsoft 365 Copilot. If you don't see them right away, wait a few minutes, then select **New chat** and reselect **Product Support**. The prompts display on a new, empty session.
+
 1. When the update is complete, return to Copilot Studio and close the modal window. If you're not taken to **Microsoft 365 Copilot** in your browser, go to **Microsoft 365 Copilot** using the **App Launcher** icon (grid icon) in the top-left of the page.
 
 ## Test your agent in Microsoft 365 Copilot
