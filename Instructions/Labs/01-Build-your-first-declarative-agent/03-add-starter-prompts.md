@@ -18,8 +18,11 @@ This exercise should take approximately **10** minutes to complete.
 In Copilot Studio:
 
 1. Navigate to your **Product Support** agent's **Overview** page.
+
 1. Note that the conversational agent creation wizard may generate suggested prompts for your agent during creation. If it does, you can replace these with more appropriate prompts based on the agent's capabilities.
+
 1. In the **Suggested Prompts** section, select the **Edit** icon or the **Add suggested prompts** button, depending on whether or not prompts were generated during agent creation.
+
 1. Replace the existing prompts with the following:
 
       `Eagle Air` : `Tell me about Eagle Air`
@@ -41,11 +44,15 @@ In Copilot Studio:
 Let's publish the updated agent to Microsoft 365 Copilot.
 
 1. After your agent's changes have been saved successfully, select **Publish** at the top-right of your agent's overview page in Copilot Studio.
+
 1. On the modal window that opens, select **Publish**.
+
 1. On the **Availability options** window that opens, select **Copy** under the **Share link** heading.
 
     ![Screenshot of the Availability options window.](../Media/availability-options-share-link.png)
+
 1. In a different tab of your web browser, **paste** your agent's share link and press **Enter**. A window appears describing the **Product Support** agent.
+
 1. Wait a few moments while the changes are published to the Product Support agent.
   
    > [!NOTE]
