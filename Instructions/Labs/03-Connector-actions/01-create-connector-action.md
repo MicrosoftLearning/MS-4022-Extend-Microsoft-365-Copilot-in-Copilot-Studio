@@ -18,6 +18,7 @@ This exercise should take approximately **15** minutes to complete.
 This exercise focuses on adding connector tools to an existing agent. This exercise assumes the following:
 
 1. You've already created a **Product Support** declarative agent in Copilot Studio. If you need instructions for creating a declarative agent, see: [Create a declarative agent](../01-Build-your-first-declarative-agent/01-create-declarative-agent.md).
+
 1. You have a SharePoint site titled **Product Support** that contains a document library named **Products** containing files with sample product-related data. For instructions, see the section titled **Before you start** within the exercise: [Add custom knowledge](../01-Build-your-first-declarative-agent/02-add-custom-knowledge.md).
 
 ## Create a SharePoint connector tool from a prebuilt connector
@@ -39,12 +40,15 @@ Create a connector tool using the SharePoint List Folder prebuilt connector and 
 1. Browse and select the **List Folder** SharePoint connector.
 
     ![Screenshot of the Add tool window highlighting the List folder connector.](../Media/add-tool-list-folder.png)
+
 1. The modal window displays a connection for the SharePoint connector. A green checkmark will be displayed next to the connector when your connection is active. You may select the **...** to view details about the connection. If the status is **Not connected**, select the dropdown next to **Not connected** and select **Create new connection**.
 
     ![Screenshot of the Add tool window highlighting the Create new connection button.](../Media/create-new-connection.png)
+
 1. On the **Connect to SharePoint** dialog, select **Connect directly (cloud services)**, then select **Create**.
 
 1. You will be prompted to sign in. Sign in using the M365 account you're using for the exercise.
+
 1. On the **Add tool** dialog, after a connection is established, select **Add and configure** to add the tool to your agent.
 
 1. Confirm that the **List folder - connector** tool is listed in the **Tools** section of your agent.
@@ -80,8 +84,11 @@ Configure the properties of the connector tool for the agent.
 Let's also update your agent's instructions, providing guidance to the agent for how to use the connector tool.
 
 1. Return to the overview page for your **Product Support** agent.
+
 1. From the **Details** section of your **Product Support** agent in Copilot Studio, select **Edit**.
+
 1. In the **Instructions** text box, add the following to the existing instructions text: `When asked about available support resources, use the SharePoint connector to list the files in the Products folder and let the user know the SharePoint Connector was used.`
+
 1. Select **Save**.
 
 ## Test your agent with the tool

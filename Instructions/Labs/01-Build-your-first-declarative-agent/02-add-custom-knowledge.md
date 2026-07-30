@@ -34,33 +34,51 @@ Before you can start this exercise, you will need to upload the product-related 
 ### Create a SharePoint site
 
 1. In your web browser, navigate to [Microsoft 365 Copilot](https://m365.cloud.microsoft.com) at `https://m365.cloud.microsoft.com` and sign in with the Microsoft 365 account you're using for this lab. 
+
 1. Select the **App Launcher** icon (grid icon) in the top left corner of the page, then select **More Apps**.
     ![Screenshot of the M365 apps button in Copilot Chat.](../Media/apps-icon.png)
+
 1. Select **SharePoint** from the catalog of apps.
+
 1. Skip any messages about new features and navigate to the SharePoint homepage.
+
 1. From the left-navigation menu, select **Build**.
+
 1. Under the **Start building** section, select **Site**.
+
 1. Select **Team site** as the type of site.
+
 1. On the **Select a site template** page, under the **From Microsoft** section, select **Standard team**.
+
 1. On the **Preview site template** page, select **Use template**.
+
 1. On the **Give your site a name** page, enter `Product support`.
+
 > [!NOTE]
 > If the message **The site address is available with modification** appears, modify the site name until the message indicates that the site address is available. You can accept the suggested modification or create your own.
+
 1. Change the **Privacy settings** to **Public - anyone in the organization can access this site**.
+
 1. Select **Create site**. Creation of the site may take a few moments before the **Go to site** button is activated.
+
 1. Select **Go to site**. You're navigated to your new SharePoint site in the browser.
 
 ### Create a document library
 
-1. From the **Product support** SharePoint site, select the **Create** button at the top of the page then select **Document library**.
-1. On the **Create a new document library** page, select **Blank library**.
+1. From the **Product support** SharePoint site, select **+ New** at the top of the page then select **Document library**.
+
+1. On the **Create a new document library** page, under **Start from scratch or reuse**, select **Blank library**.
+
 1. In the **Name** field, enter `Products` then select **Create**. You're navigated to the new document library.
 
 ### Upload sample data
 
 1. From the **Products** library, select the **+ Create or upload** button then select **Files upload**.
+
 1. Navigate to the folder on your computer where you saved the sample files you downloaded in an earlier step.
+
 1. **Select all** of the files in your local Products folder and then select **Open** to upload them to SharePoint.
+
 1. Wait for the upload to complete. The files will now appear in the **Products** library in SharePoint.
 
 ### Copy the SharePoint URL
@@ -68,7 +86,9 @@ Before you can start this exercise, you will need to upload the product-related 
 Next, copy the direct URL to the site for use when configuring your agent's knowledge.
 
 1. From the **Products** library page in SharePoint, select the **Settings** icon in the top right and choose **Library settings** then **More library settings**.
+
 1. Locate the **Web address** property. Your **SharePoint site URL** is the portion of the Web address that is in the format `https://DOMAIN.sharepoint.com/sites/SITE_NAME/LIBRARY_NAME/Forms/AllItems.aspx`. Your URL should be in the format `https://DOMAIN.sharepoint.com/sites/ProductSupport/Products/Forms/AllItems.aspx`, where DOMAIN is your Microsoft 365 tenant domain.
+
 1. **Copy** your SharePoint site URL and save it for use in upcoming lab steps. Do not include any portion of the URL that comes after "/Products".
 
 ## Configure your agent with custom knowledge
@@ -78,15 +98,23 @@ Add the SharePoint URL to your agent as a grounding knowledge source.
 ### Add SharePoint URL
 
 1. In a web browser, navigate to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) at `https://copilotstudio.microsoft.com`.
+
 1. Skip any messages about new features.
+
 1. Select **Agents**.
+
 1. Select the **Microsoft 365 Copilot** agent.
+
 1. Select your **Product Support** agent.
+
 1. From the **Knowledge** section of the agent overview page, select **Add Knowledge**.
+
 1. On the **Add knowledge** page of the wizard that opens, select **SharePoint**.
+
 1. In the text box, paste the URL of your **Products** SharePoint library, then select **Add**. This should be in the format: `https://DOMAIN.sharepoint.com/sites/ProductSupport/Products`.
 
 1. Select **Add to agent** then wait for the knowledge source to be added to the agent. This may take a minute.
+
 1. Notice that the **Products** library is listed under the **Knowledge** section of the agent's overview information.
 
     ![Screenshot of the Knowledge section of the Product Support agent, showing the Products library added to the agent.](../Media/agent-knowledge-products.png)
@@ -99,7 +127,9 @@ Add the SharePoint URL to your agent as a grounding knowledge source.
 Next, update the agent's instructions to describe how the agent should use the knowledge source.
 
 1. From the agent's overview page in Copilot Studio, select **Edit** within the **Details** section.
+
 1. Replace the contents of the **Instructions** text box with the following: `You are an agent tasked with answering questions about Contoso Electronics products. Start every response by enthusiastically thanking the user for their question or comment, then respond to their question or comment. You will use documents from the Products folder in SharePoint as your source of information. If you can't find the necessary information, you should suggest that the agent should reach out to the team responsible for further assistance. Your responses should be concise and always include a cited source.`
+
 1. Select **Save** in the **Details** section.
 
 ## Test your agent in Copilot Studio
@@ -107,19 +137,25 @@ Next, update the agent's instructions to describe how the agent should use the k
 Finally, test your agent's ability to use the custom knowledge source.
 
 1. From the **Test your agent** pane in your agent's overview page in Copilot Studio, select the **New chat** button to refresh the test pane.
+
 1. In the text box for the test conversation, enter `Tell me about Eagle Air` and send the message.
+
 1. Wait for the response. Notice that the response contains information about the Eagle Air drone. The response contains citations and references to the Eagle Air document stored in SharePoint.
 
    Let's try a few more prompts:
 
 1. In the message box, enter `Recommend a product suitable for a farmer` and send the message.
+
 1. Wait for the response. Notice that the response contains information about the Eagle Air and some extra context as to why the Eagle Air is recommended. The response contains citations and references to the Eagle Air document stored in SharePoint.
+
 1. In the message box, enter `Explain why the Eagle Air is more suitable than Contoso Quad` and send the message.
+
 1. Wait for the response. Notice that the response explains in more detail why the Eagle Air is more suitable than the Contoso Quad for use by farmers.
 
    Finally, let's test the fallback response by asking a question that the agent can't answer:
 
 1. In the message box, enter `When was Mark8 released?` and send the message.
+
 1. Wait for the response. Notice that the response suggests that the agent should reach out to the team responsible for further assistance as defined in the instructions.
 
     ![Screenshot of the agent's response in the test pane.](../Media/test-agent-knowledge.png)
