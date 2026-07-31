@@ -55,7 +55,7 @@ Next, configure the agent's properties and metadata manually to ensure consisten
 
 1. In the **Instructions** text box, enter the following:
   
-    ```md
+    ```text
         - You are an agent tasked with answering questions about Contoso Electronics products.
         - Start every response to the user with "Thanks for using a Copilot agent!\n\n" and then answer the questions and help the user.
         - Do not answer questions unrelated to Contoso Electronics products.
@@ -96,11 +96,12 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 > [!NOTE]
 > The information on this form is used to populate the catalog entry in your organization's Office and Teams Catalogs and the Microsoft Admin Center Integrated Apps list. It isn't used by the Microsoft 365 Copilot language model to invoke your agent.
 
-1. In the **Short description** text box enter `Answers questions about Contoso Electronics products`, replacing the automatically generated content.
+2. In the **Short description** text box enter `Answers questions about Contoso Electronics products`, replacing the automatically generated content.
 
 1. Accept the default suggestions for the remaining fields.
 
 1. Select **Publish**.
+    
     ![Screenshot of the Publish agent window before selecting the Publish button.](../Media/publish-window.png)
 
 1. Wait for the agent to be published.  Do not close the modal window during publishing. This may take a few minutes.
@@ -108,7 +109,7 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 > [!NOTE]
 > When you select **Publish**, a bot resource corresponding to your agent is provisioned in your tenant's Microsoft Entra ID environment. The resource allows users to interact with the agent in Microsoft Teams.
 
-1. Once the agent is published, the **Availability options** window appears.
+6. Once the agent is published, the **Availability options** window appears.
 
 1. Under **Share link**, select **Copy** to copy the share link for your agent, then select **Done**.
 
@@ -127,6 +128,9 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 
 1. Wait for your agent to be added. Your agent is launched in Microsoft 365 Copilot.
 
+> [!NOTE]
+> If the agent doesn´t launch in Microsoft 365 Copilot, navigate to Microsoft 365 Copilot using the **App Launcher** icon (grid icon) in the top-left of Microsoft Teams page.
+
 ## Test the agent in Microsoft 365 Copilot
 
 Next, let's test the agent in Microsoft 365 Copilot and validate its functionality in both the **immersive** and **in-context** experiences.
@@ -134,6 +138,9 @@ Next, let's test the agent in Microsoft 365 Copilot and validate its functionali
 Following the previous steps, you are currently in the **immersive** agent experience. Notice in the **Agents** section of the pane to the side of the chat interface that **Product Support** is selected as the agent you are currently chatting directly with.
 
 ![Screenshot of the immersive experience with the Product Support agent in Microsoft 365 Copilot.](../Media/product-support-immersive.png)
+
+> [!NOTE]
+> If the **Product Support** agent is not displayed in the **Agents** section of the left navigation pane, select **More agents**. Then under **Your agents**, pin the **Product Support** agent and select it from the list.
 
 1. In the prompt box, enter `What can you do?` and submit your message.
 

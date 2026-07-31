@@ -37,12 +37,15 @@ Before you start the lab exercises, you must create a development environment to
    - **Type**: Developer
    - **Region**: default region
    - **Name**: *Your name*
+   
+   ![Create an environment in the Power Platform Admin center.](../media/create-environment.png)
+
+1. Expand **Change default settings** and configure the following:
    - **Environment group**: None
    - **Make this a Managed Environment**: No
    - **Get new features early**: No
    - **Create on behalf**: No
-
-   ![Create an environment in the Power Platform Admin center.](../media/create-environment.png)
+   - **Add a Dataverse data store?**: Yes
 
 1. Select **Next** and in the **Add Dataverse** section:
 
@@ -52,17 +55,25 @@ Before you start the lab exercises, you must create a development environment to
 
 1. Select **Save** and wait until the state of your environment is **Ready** (you can use the **Refresh** button to update the display).
 
-   > [!NOTE]
-   > Environment provisioning can take several minutes depending on tenant configuration.
+> [!NOTE]
+> Environment provisioning can take several minutes depending on tenant configuration.
 
    ![Environment created in the Power Platform Admin center.](../media/environment-created.png)
 
-1. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
+5. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
 
-   > [!NOTE]
-   > If you encounter issues to access Copilot Studio, copy the environment id from the new created environment in the Power Platform Admin Center and paste it into the following URL: `https://copilotstudio.microsoft.com/environments/<environment-id>`. Replace `<environment-id>` with the environment id you copied.
+> [!NOTE]  
+> If you experience issues loading Copilot Studio on your environment:
+> - First, capture your environment ID (GUID) from the Power Platform admin center:
+>   1. Open the environment you created at `https://admin.powerplatform.microsoft.com/manage/environments`.
+>   2. Locate the environment ID in the URL (a long string such as `12345678-90ab-cdef-1234-567890abcdef`).
+>   3. Copy and save this value.
+> - Then try accessing your environment directly by pasting your ID into the following URL:
+>   ```
+>   https://copilotstudio.microsoft.com/environments/<your-environment-id>/home
+>   ```
 
-1. If prompted, select **Get Started** and keep the default country or region settings.
+6. If prompted, select **Get Started** and keep the default country or region settings.
 
 1. Skip any welcome messages.
 
