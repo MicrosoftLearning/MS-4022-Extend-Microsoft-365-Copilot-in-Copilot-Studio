@@ -26,7 +26,7 @@ Before you start the lab exercises, you must create a development environment to
 
 1. Select the ellipses (**...**) for the **Contoso (default)** environment and select **Add Dataverse**.
 
-   ![Add Dataverse to the default environment in the Power Platform Admin center.](../media/add-dataverse.png)
+   ![Add Dataverse to the default environment in the Power Platform Admin center.](../Media/add-dataverse.png)
 
 1. Leave all of the default settings and select **Add**.
 
@@ -38,7 +38,7 @@ Before you start the lab exercises, you must create a development environment to
    - **Region**: default region
    - **Name**: *Your name*
    
-   ![Create an environment in the Power Platform Admin center.](../media/create-environment.png)
+   ![Create an environment in the Power Platform Admin center.](../Media/create-environment.png)
 
 1. Expand **Change default settings** and configure the following:
    - **Environment group**: None
@@ -58,7 +58,7 @@ Before you start the lab exercises, you must create a development environment to
 > [!NOTE]
 > Environment provisioning can take several minutes depending on tenant configuration.
 
-   ![Environment created in the Power Platform Admin center.](../media/environment-created.png)
+   ![Environment created in the Power Platform Admin center.](../Media/environment-created.png)
 
 5. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
 
@@ -79,6 +79,6 @@ Before you start the lab exercises, you must create a development environment to
 
 1. In the upper right corner of the page, switch environments by using the Environment Selector and select the environment you created.
 
-   ![Select your environment in the Copilot Studio.](../media/select-environment.png)
+   ![Select your environment in the Copilot Studio.](../Media/select-environment.png)
 
 You now have a Power Platform environment to work in.
