@@ -40,13 +40,18 @@ Before you start the lab exercises, you must create a development environment to
    
    ![Create an environment in the Power Platform Admin center.](../Media/create-environment.png)
 
-1. In the **Add Dataverse** secion click **+ Add Dataverse** then select:
+1. Expand **Change default settings** and configure the following:
+   - **Environment group**: None
+   - **Make this a Managed Environment**: No
+   - **Create on behalf**: No
+   - **Add a Dataverse data store?**: Yes
 
+1. Select **Next** and in the **Add Dataverse** section:
    - **Language**: English (United States)
    - **Currency**: USD ($)
-   - **Deploy sample apps and data**: No
+   - **Deploy sample apps and data?**: No
 
-1. Select **Add** and wait until the state of your environment is **Ready** (you can use the **Refresh** button to update the display).
+1. Select **Save** and wait until the state of your environment is **Ready** (you can use the **Refresh** button to update the display).
 
    > [!NOTE]
    > Environment provisioning can take several minutes depending on tenant configuration.
@@ -55,7 +60,7 @@ Before you start the lab exercises, you must create a development environment to
 
 1. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
 
-1. If Copilot Studio opens in the new experience, locate the **New experience** toggle in the upper-right corner of the page and turn it off to return to the classic experience. On the **Submit feedback to Microsoft** dialog, select **Submit** > **Done** to close it. If Copilot Studio opens in the classic experience, skip this step.
+1. Make sure you are in the Copilot Studio classic experience. If you are using the new Copilot Studio experience, select the ellipsis **(…)** next to your account in the lower-left corner, and then select **Open classic experience** before proceeding. On the **Submit feedback to Microsoft** dialog, select **Submit** > **Done** to close it.
 
    > [!NOTE]  
    > If you experience issues loading Copilot Studio on your environment:
